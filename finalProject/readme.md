@@ -3,7 +3,7 @@ The goal of this study is to use image processing techniques to extract the late
 
 ## Included Files
 * Our [project code](EECE5644_ProjectCode.m) includes the MATLAB file which produced our results
-* The [cleaned data](putlinkhere.m) is a CSV file with all data used for the project
+* The [cleaned data](museum_modern_art_parsed.csv) is a CSV file with all data used for the project
 
 ## Instructions to use
 
