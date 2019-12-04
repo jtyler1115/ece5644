@@ -14,7 +14,6 @@ The goal of this study is to use image processing techniques to extract the late
 idx27 = find(nat_grps == 27); %French
 idx42 = find(nat_grps == 42); %Japanese
 idx = [idx27(1:end/2);idx42(1:end)];
-num = length(idx);
 ```
 
 ## Contributors
