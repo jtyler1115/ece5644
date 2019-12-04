@@ -84,7 +84,7 @@ grid on; axis square equal;
 scatter3(tPCAscore(:,1),tPCAscore(:,2),tPCAscore(:,3),'.');
 hold on;
 imageNum = size(image_archive,1);
-imageWidth = 20;
+imageWidth = 1000;
 for i = 1:imageNum
     img = imresize(image_archive{i}, [imageWidth imageWidth]);
     x = tPCAscore(i,1);
