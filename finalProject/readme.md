@@ -1,6 +1,8 @@
 # EECE5644 Final Project
 The goal of this study is to use image processing techniques to extract the latent features of a collection of artworks from the MoMA with hopes to determine which characteristics of the work can be classified by latent features (e.g. Nationality, Medium, Time Period).
 
+![Project Graphic](projectGraphic.png)
+
 ## Included Files
 * Our [project code](EECE5644_ProjectCode.m) includes the MATLAB file which produced our results
 * The [cleaned data](museum_modern_art_parsed.csv) is a CSV file with all data used for the project
