@@ -8,9 +8,14 @@ The goal of this study is to use image processing techniques to extract the late
 ## Instructions to use
 1. Pull the project code and CSV file to your local machine.
 2. Run the code using MATLAB (development done using R2019a)
-3. In order to change nationalities:
-
-https://github.com/jtyler1115/ece5644/blob/bbd216fc0c625a3bfadbe62dd43b89fb00898299/finalProject/EECE5644_ProjectCode.m#L15
+3. In order to change nationalities, uncomment the two nationalities you wish to compare in lines 16-18 and replace the variables in line 19 accordingly. For example, to compare French and Japanese artworks:
+'''
+% idx1 = find(nat_grps == 1); %American
+idx27 = find(nat_grps == 27); %French
+idx42 = find(nat_grps == 42); %Japanese
+idx = [idx27(1:end/2);idx42(1:end)];
+num = length(idx);
+'''
 
 ## Contributors
 * Tzu Chieh Hung
