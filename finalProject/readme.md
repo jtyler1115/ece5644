@@ -9,12 +9,9 @@ The goal of this study is to use image processing techniques to extract the late
 1. Pull the project code and CSV file to your local machine.
 2. Run the code using MATLAB (development done using R2019a)
 3. In order to change nationalities:
-'''
-% idx1 = find(nat_grps == 1); %American
-idx27 = find(nat_grps == 27); %French
-idx42 = find(nat_grps == 42); %Japanese
-idx = [idx27(1:end/2);idx42(1:end)];
-'''
+
+https://github.com/jtyler1115/ece5644/blob/bbd216fc0c625a3bfadbe62dd43b89fb00898299/finalProject/EECE5644_ProjectCode.m#L15
+
 ## Contributors
 * Tzu Chieh Hung
 * Nabeel Hussain
